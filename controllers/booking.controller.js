@@ -8,6 +8,7 @@ const axios = require('axios').default;
 
 exports.fetchUserBookings = async (req, res, next) => {
     const userId = req.query.userId;
+  
      
     try{
 
